@@ -1,0 +1,499 @@
+- model: sim.Quiz
+  pk: 1
+  fields:
+    name: "SPT Quiz"
+
+- model: sim.Question
+  pk: 1
+  fields:
+    quiz: 1
+    text: "Which is the best method of meditation?"
+
+- model: sim.Question
+  pk: 2
+  fields:
+    quiz: 1
+    text: "Meditation under a pyramid gives"
+
+- model: sim.Question
+  pk: 3
+  fields:
+    quiz: 1
+    text: "What is the 'Golden Angle' in Pyramid?"
+
+
+- model: sim.Question
+  pk: 4
+  fields:
+    quiz: 1
+    text: "When do we receive high energies during meditation every month?"
+
+- model: sim.Question
+  pk: 5
+  fields:
+    quiz: 1
+    text: "Which is the highest form of service?"
+
+- model: sim.Question
+  pk: 6
+  fields:
+    quiz: 1
+    text: "What are organs related to Heart Chakra/Anahatha?"
+
+- model: sim.Question
+  pk: 7
+  fields:
+    quiz: 1
+    text: "1 hour of deep meditation = ?"
+
+- model: sim.Question
+  pk: 8
+  fields:
+    quiz: 1
+    text: "Which chakra is the gateway to cosmic universe?"
+
+- model: sim.Question
+  pk: 9
+  fields:
+    quiz: 1
+    text: "What are the challenges in Mooladara chakra? "
+
+- model: sim.Question
+  pk: 10
+  fields:
+    quiz: 1
+    text: "10.Feelings, emotions, pleasures, sensuality, intimacy, creativity are the qualities	of which chakra?"
+
+- model: sim.Question
+  pk: 11
+  fields:
+    quiz: 1
+    text: "Which chakra relates to our physical Identity and stability? "
+
+- model: sim.Question
+  pk: 12
+  fields:
+    quiz: 1
+    text: "How to balance the chakras?"
+
+- model: sim.Question
+  pk: 13
+  fields:
+    quiz: 1
+    text: "Reasons for not getting desired results are..."
+
+- model: sim.Question
+  pk: 14
+  fields:
+    quiz: 1
+    text: "What are the obstacles to climb the ladder of spirituality?"
+
+- model: sim.Question
+  pk: 15
+  fields:
+    quiz: 1
+    text: "15.When get spiritual maturity your personal and social/community goal will merge. Is this true?"
+
+- model: sim.Question
+  pk: 16
+  fields:
+    quiz: 1
+    text: "What are the 3 types of sufferings? "
+
+- model: sim.Question
+  pk: 17
+  fields:
+    quiz: 1
+    text: "How do we seek God and the Kingdom of God within?"
+
+- model: sim.Question
+  pk: 18
+  fields:
+    quiz: 1
+    text: "Where is crown chakra located? "
+
+- model: sim.Question
+  pk: 19
+  fields:
+    quiz: 1
+    text: "Superior or inferior Complex is the challenge for which chakra? "
+
+- model: sim.Question
+  pk: 20
+  fields:
+    quiz: 1
+    text: "Eyes, ears, nose, sinuses are associated with which chakra?"
+
+
+
+- model: sim.Answer
+  pk: 1
+  fields:
+    question: 1
+    text: "AnaPanaSati - Attention on Breath"
+    is_correct: true
+
+- model: sim.Answer
+  pk: 2
+  fields:
+    question: 1
+    text: "Focus on Third eye"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 3
+  fields:
+    question: 1
+    text: "Visualization"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 4
+  fields:
+    question: 1
+    text: "Japa / chanting mantra"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 5
+  fields:
+    question: 2
+    text: "3 times more energy"
+    is_correct: true
+
+- model: sim.Answer
+  pk: 6
+  fields:
+    question: 2
+    text: "gives no extra energy"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 7
+  fields:
+    question: 2
+    text: "reduces energy"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 8
+  fields:
+    question: 2
+    text: "it depends on the material used"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 9
+  fields:
+    question: 3
+    text: "30 degree and 4'"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 10
+  fields:
+    question: 3
+    text: "51 degree and 51'"
+    is_correct: true
+
+- model: sim.Answer
+  pk: 11
+  fields:
+    question: 3
+    text: "Right angle"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 12
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 13
+  fields:
+    question: 4
+    text: "All days"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 14
+  fields:
+    question: 4
+    text: "Day before and after and on Full moon day "
+    is_correct: true
+
+- model: sim.Answer
+  pk: 15
+  fields:
+    question: 4
+    text: "Only on the Full moon day"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 16
+  fields:
+    question: 4
+    text: "Every Sunday"
+    is_correct: false
+
+
+- model: sim.Answer
+  pk: 17
+  fields:
+    question: 5
+    text: "Social Service"
+    is_correct: false
+
+- model: sim.Answer
+  pk: 18
+  fields:
+    question: 5
+    text: "Donations"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 19
+  fields:
+    question: 5
+    text: "Spiritual Science Service"
+    is_correct: true
+
+- model: sim.Answer
+  pk: 20
+  fields:
+    question: 5
+    text: "Medical service"
+    is_correct: false
+      
+- model: sim.Answer
+  pk: 21
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 22
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 23
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 24
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 25
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 26
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 27
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 28
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 29
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 30
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 31
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 32
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 33
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 34
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 35
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 36
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 37
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 38
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 39
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 40
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 41
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 42
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 43
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 44
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 45
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 46
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 47
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 48
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 49
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 50
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 51
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 52
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
+  
+- model: sim.Answer
+  pk: 53
+  fields:
+    question: 3
+    text: "360 degree"
+    is_correct: false
